@@ -6,13 +6,13 @@ import java.util.Date;
  * Created by boukall on 1/17/18.
  */
 
-public class SadMood extends Tweet {
-    public SadMood(String message){
-        super(message);
+public class SadMood extends Mood {
+    public SadMood(){
+        super();
     }
 
-    public SadMood(String message, Date date ){
-        super(message, date);
+    public SadMood(Date date ){
+        super(date);
     }
 
 
