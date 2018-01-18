@@ -6,16 +6,17 @@ import java.util.Date;
  * Created by boukall on 1/17/18.
  */
 
-public class Madmood extends Mood {
-    public Madmood(){
+public class MadMood extends Mood {
+
+    public MadMood(){
         super();
     }
 
-    public Madmood(Date date ){
+    public MadMood(Date date){
         super(date);
     }
 
-
+    @Override
     public String getMood(){
         return "I am mad";
     }

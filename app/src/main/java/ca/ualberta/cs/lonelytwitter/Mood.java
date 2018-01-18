@@ -25,4 +25,7 @@ public abstract class Mood {
         this.date = date;
     }
 
+    //abstract because I'm assuming all inherited moods must have a mood sentence
+    public abstract String getMood();
+
 }
