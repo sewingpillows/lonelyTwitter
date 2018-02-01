@@ -1,3 +1,16 @@
+/*
+ * Copyright (c) 2018. CMPT 301 - yeah!
+ * You many use and distribute. Any question contact email@email.com
+ *
+ */
+
+/*
+* Tweet
+* January 31, 2018
+*
+ */
+
+
 package ca.ualberta.cs.lonelytwitter;
 
 import java.io.BufferedReader;
@@ -23,6 +36,7 @@ import android.widget.ListView;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+
 
 public class LonelyTwitterActivity extends Activity {
 
